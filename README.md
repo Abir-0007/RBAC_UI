@@ -20,32 +20,6 @@ File Structure:
 ├── app.js                # JavaScript file for handling user management functionality
 ├── db.json               # JSON file used by JSON Server to store user data
 ├── README.md             # Project description (this file)
-Setup Instructions:
-1. Clone the Repository
-To get started, clone this repository to your local machine:
-
-git clone https://github.com/your-username/user-management-dashboard.git
-
-2. Install JSON Server
-To run the backend locally, you will need to install JSON Server. Install it globally using npm:
-
-npm install -g json-server
-
-3. Create db.json
-Create a file named db.json in the root directory of the project. This file will serve as the database for the application. Add the following initial content to db.json:
-
-{
-  "users": []
-}
-4. Start JSON Server
-After setting up db.json, open your terminal, navigate to the project folder, and run the following command to start JSON Server on port 5000:
-
-json-server --watch db.json --port 5000
-
-This will simulate a backend API that you can use to store and retrieve user data.
-
-5. Open the Project
-Once JSON Server is running, open the index.html file in your browser or use a tool like Live Server in Visual Studio Code to view the project.
 
 How It Works:
 Adding Users:
